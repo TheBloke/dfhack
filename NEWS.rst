@@ -9,7 +9,7 @@
 
         Internals
         Lua
-        New [Internal Commands | Plugins | Scripts | Tweaks]
+        New [Internal Commands | Plugins | Scripts | Features]
         Fixes
         Misc Improvements
         Removed
@@ -28,6 +28,31 @@ Changelog
 
 .. contents::
    :depth: 2
+
+DFHack future
+=============
+
+Internals
+---------
+- Commands to run on startup can be specified on the command line with ``+``
+
+    Example::
+
+        ./dfhack +devel/print-args example
+        "Dwarf Fortress.exe" +devel/print-args example
+
+New Features
+------------
+- `confirm`: Added a confirmation for retiring locations
+- `search-plugin`: Support for the location occupation assignment menu
+- `tweak`:
+
+    - ``tweak title-start-rename``: Adds a safe rename option to the title screen "Start Playing" menu
+
+Fixes
+-----
+- `showmood`: Fixed name display on OS X/Linux
+
 
 DFHack 0.40.24-r5
 =================
